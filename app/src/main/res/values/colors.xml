@@ -1,0 +1,32 @@
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorBackground">#FFF8E1</color>
+    <color name="onBackgroundColor">#4A4A4A</color>
+
+    <color name="darkColorBackground">#2E2B29</color>
+    <color name="onBackgroundDarkColor">#E1E1E1</color>
+
+    <color name="primaryColor">#D6CDAA</color>
+    <color name="onPrimaryColor">#4A4A4A</color>
+    <color name="primaryContainer">#EDE5C7</color>
+
+    <color name="secondaryColor">#A48948</color>
+    <color name="onSecondaryColor">#FFFFFF</color>
+    <color name="secondaryContainer">#F0E0C1</color>
+
+    <color name="primaryDarkColor">#A49B77</color>
+    <color name="primaryContainerDark">#4A473A</color>
+    <color name="primaryTextDarkColor">#FFFFFF</color>
+
+    <color name="secondaryDarkColor">#7D613A</color>
+    <color name="secondaryContainerDark">#3E3B32</color>
+    <color name="secondaryTextDarkColor">#FFFFFF</color>
+
+    <color name="primaryTextColor">#4A4A4A</color>
+    <color name="secondaryTextColor">#6D4C41</color>
+
+    <color name="red">#C80000</color>
+    <color name="green">#00CA13</color>
+</resources>

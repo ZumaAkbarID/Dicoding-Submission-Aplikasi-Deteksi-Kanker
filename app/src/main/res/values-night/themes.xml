@@ -1,0 +1,51 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base dark theme for Asclepius -->
+    <style name="Base.Theme.Asclepius.Dark" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Dark theme colors -->
+        <item name="colorPrimary">@color/primaryDarkColor</item>
+        <item name="colorOnPrimary">@color/primaryTextDarkColor</item>
+        <item name="colorPrimaryContainer">@color/primaryContainerDark</item>
+        <item name="colorSecondary">@color/secondaryDarkColor</item>
+        <item name="colorOnSecondary">@color/secondaryTextDarkColor</item>
+        <item name="colorOnBackground">@color/onBackgroundDarkColor</item>
+        <item name="android:colorBackground">@color/darkColorBackground</item>
+
+        <!-- Text Style for Dark Mode -->
+        <item name="android:textColor">@color/onBackgroundDarkColor</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textAppearance">@style/TextAppearance.Material3.BodyLarge</item>
+
+        <!-- Button Styling for Dark Mode -->
+        <item name="android:buttonStyle">@style/ButtonStyle.Asclepius.Dark</item>
+
+        <!-- Progress Indicator for Dark Mode -->
+        <item name="circularProgressIndicatorStyle">@style/Widget.Asclepius.CircularProgressIndicator.Dark</item>
+        <item name="linearProgressIndicatorStyle">@style/Widget.Asclepius.LinearProgressIndicator.Dark</item>
+    </style>
+
+    <!-- Dark Theme for Main Theme -->
+    <style name="Theme.Asclepius.Dark" parent="Base.Theme.Asclepius.Dark" />
+
+    <!-- Custom Button Style for Dark Mode -->
+    <style name="ButtonStyle.Asclepius.Dark" parent="Widget.Material3.Button">
+        <item name="android:backgroundTint">@color/primaryDarkColor</item>
+        <item name="android:textColor">@color/primaryTextDarkColor</item>
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+
+    <!-- Linear Progress Indicator Style for Dark Mode -->
+    <style name="Widget.Asclepius.LinearProgressIndicator.Dark" parent="Widget.Material3.LinearProgressIndicator">
+        <item name="trackColor">@color/secondaryContainerDark</item>
+        <item name="indicatorColor">@color/primaryDarkColor</item>
+        <item name="android:layout_height">4dp</item>
+    </style>
+
+    <!-- Circular Progress Indicator Style for Dark Mode -->
+    <style name="Widget.Asclepius.CircularProgressIndicator.Dark" parent="Widget.Material3.CircularProgressIndicator">
+        <item name="indicatorColor">@color/primaryDarkColor</item>
+        <item name="trackColor">@color/secondaryContainerDark</item>
+        <item name="android:layout_width">36dp</item>
+        <item name="android:layout_height">36dp</item>
+    </style>
+</resources>

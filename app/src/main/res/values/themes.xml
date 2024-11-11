@@ -1,0 +1,51 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme with Material 3. -->
+    <style name="Base.Theme.Asclepius" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Warna light -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorOnPrimary">@color/primaryTextColor</item>
+        <item name="colorPrimaryContainer">@color/primaryContainer</item>
+        <item name="colorSecondary">@color/secondaryColor</item>
+        <item name="colorOnSecondary">@color/secondaryTextColor</item>
+        <item name="colorOnBackground">@color/onBackgroundColor</item>
+        <item name="android:colorBackground">@color/colorBackground</item>
+
+        <!-- Text Style -->
+        <item name="android:textColor">@color/onBackgroundColor</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textAppearance">@style/TextAppearance.Material3.BodyLarge</item>
+
+        <!-- Button Styling -->
+        <item name="android:buttonStyle">@style/ButtonStyle.Asclepius</item>
+
+        <!-- Progress Indicator -->
+        <item name="circularProgressIndicatorStyle">@style/Widget.Asclepius.CircularProgressIndicator</item>
+        <item name="linearProgressIndicatorStyle">@style/Widget.Asclepius.LinearProgressIndicator</item>
+    </style>
+
+    <!-- Main Theme -->
+    <style name="Theme.Asclepius" parent="Base.Theme.Asclepius" />
+
+    <!-- Custom Button Style -->
+    <style name="ButtonStyle.Asclepius" parent="Widget.Material3.Button">
+        <item name="android:backgroundTint">@color/primaryColor</item>
+        <item name="android:textColor">@color/onPrimaryColor</item>
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+
+    <!-- Linear Progress Indicator Style -->
+    <style name="Widget.Asclepius.LinearProgressIndicator" parent="Widget.Material3.LinearProgressIndicator">
+        <item name="trackColor">@color/secondaryContainer</item>
+        <item name="indicatorColor">@color/primaryColor</item>
+        <item name="android:layout_height">4dp</item>
+    </style>
+
+    <!-- Circular Progress Indicator Style -->
+    <style name="Widget.Asclepius.CircularProgressIndicator" parent="Widget.Material3.CircularProgressIndicator">
+        <item name="indicatorColor">@color/primaryColor</item>
+        <item name="trackColor">@color/secondaryContainer</item>
+        <item name="android:layout_width">36dp</item>
+        <item name="android:layout_height">36dp</item>
+    </style>
+</resources>
